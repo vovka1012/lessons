@@ -1,0 +1,81 @@
+@import url(reset.css);
+
+@font-face {
+	font-family: 'Calibri';
+	src: url('../fonts/Calibri-Bold.woff2') format('woff2'),
+		 url('Calibri-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Calibri';
+	src: url('../fonts/Calibri-BoldItalic.woff2') format('woff2'),
+		 url('Calibri-BoldItalic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Calibri';
+	src: url('../fonts/Calibri-Italic.woff2') format('woff2'),
+		 url('Calibri-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Calibri';
+	src: url('../fonts/Calibri.woff2') format('woff2'),
+		 url('Calibri.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: Calibri;
+}
+
+h1 {
+	font-family: Arimo;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 2px 2px 5px #a80b0b, -2px -2px 2px #c29292;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: 500;
+	letter-spacing: 5px;
+}
+
+li {
+	font-family: Arimo;
+	font-size: 20px;
+	font-style: italic;
+	color: rgb(23, 23, 117);
+	text-decoration: underline;
+	line-height: 1.2;
+	word-spacing: 2px
+}
+
+p {
+	font-style: 20px;
+	color: #493e3e;
+	font-style: italic;
+	line-height: 1.5;
+	text-indent: 20px;
+	word-spacing: 5px;
+}
