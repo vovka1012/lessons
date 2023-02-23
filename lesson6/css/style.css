@@ -24,6 +24,7 @@ artical__text-section{
 .article {
 	padding-top: 80px;
 	padding-bottom: 80px;
+	margin: 0 auto
 }
 
 h2 {
@@ -47,6 +48,10 @@ img {
 .wide-img {
 	text-align: center;
 	margin: 0 auto 80px;
+}
+.wide-img-max {
+	width: 100%;
+	margin-bottom: 80px;
 }
 
 .two-img {
