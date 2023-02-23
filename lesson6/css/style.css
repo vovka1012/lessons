@@ -1,0 +1,61 @@
+@import url(reset.css);
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700);
+
+body {
+	font-family: Poppins;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.78;
+}
+
+[class*="__container"] {
+	max-width: 1270px; /* 1240 + 15 + 15 */
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+artical__text-section{
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+
+.article {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	max-width: 605px;
+	margin: 0px 0px 40px 0px;
+	color: #212529;
+}
+
+p{
+	margin-bottom: 34px;
+	color: #6C757D;
+}
+
+img {
+	max-width: 100%
+}
+
+.wide-img {
+	text-align: center;
+	margin: 0 auto 80px;
+}
+
+.two-img {
+	font-size: 0;
+	/* margin: 0px 70px 80px 100px; */
+	margin: 0 auto 80px;
+	text-align: center;
+}
+
+.image-1 {
+	margin-right: 30px;
+}
