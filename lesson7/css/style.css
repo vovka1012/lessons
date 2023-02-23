@@ -1,0 +1,166 @@
+@import url(reset.css);
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap);
+
+.vence-maket {
+	width: 100%;
+	min-height: 600px;
+	background: url("../img/VENCE01.jpg") 0 0 / cover no-repeat;
+	border-radius: 0px 5px 5px 0px;
+}
+
+.vence-maket-container{
+	margin: 0 100px 0 100px;
+	padding-top: 330px;
+	font-family: 'Poppins';
+	line-height: 1.6;
+
+}	
+
+.vence-maket-container span{
+	display: block;
+	font-weight: 300;
+	font-size: 12px;
+	color: #E5E5E5;
+	margin-bottom: 15px;
+}
+
+.vence-maket-container h1 {
+	font-weight: 700;
+	font-size: 25px;
+	color: #F8F9FA;	
+	margin-bottom: 15px;
+}
+.span-text {
+	display: block;
+	margin-bottom: 100px;
+}
+
+/*================= tailgrids - block */
+
+.tailgrids-maket {
+	min-height: 560px;
+	background: url("../img/tail01.jpg") 0 0 / cover no-repeat;
+	font-family: 'Inter';
+}
+.tailgrids-maket-container {
+	margin: 0px 135px 0px 135px;
+	font-size: 0;
+}
+.text-block {
+	display: inline-block;
+	max-width: 585px;
+
+}
+.start-price {
+	margin: 	145px 0px 13px 0px;
+	font-weight: 600;
+	font-size: 18px;
+	color: #3056D3;
+}
+.text-block h2{
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.25;
+	color: #212B36;
+	margin-bottom: 15px;
+}
+.text-block-info {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #637381;
+	margin-bottom: 35px;
+}
+.btn-tail {
+	background: #3056D3;
+	border-radius: 30px;
+	width: 139px;
+   height: 44px;
+}
+.btn-tail a {
+	font-weight: 600;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.img-block {
+	display: inline-block;
+	padding-left: 165px;
+	padding-top: 78px;
+	max-width: 100%;
+}
+/* ===================List */
+
+.unorder-maket {
+
+}
+.unorder-container {
+	margin: 0 135px;
+	font-family: 'Inter';
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 0.9;
+	color: #637381;
+}
+.unorder-container h2 {
+	font-weight: 400;
+	font-size: 26px;
+	color: #212B36;
+	margin-bottom: 45px;
+}
+.list1 li{
+	margin-bottom: 18px;
+	padding-left: 30px;
+	background: url("../img/list/01.jpg") 0 50% / 8px no-repeat;
+	min-height: 10px;
+}
+.list1 {
+	margin-bottom: 60px;
+}
+.list2 li{
+	margin-bottom: 18px;
+	padding-left: 30px;
+	background: url("../img/list/02.jpg") 0 0 / 20px no-repeat;
+	min-height: 20px;
+}
+.list2 {
+	margin-bottom: 60px;
+}
+.list3 li{
+	margin-bottom: 18px;
+	padding-left: 30px;
+	background: url("../img/list/03.jpg") 0 0 / 20px no-repeat;
+	min-height: 20px;
+}
+.list3 {
+	margin-bottom: 60px;
+}
+.list4 li{
+	margin-bottom: 18px;
+	padding-left: 30px;
+	background: url("../img/list/04.jpg") 0 0 / 20px no-repeat;
+	min-height: 20px;
+}
+.list4 {
+	margin-bottom: 60px;
+}
+.list5 li{
+	margin-bottom: 18px;
+	padding-left: 30px;
+	background: url("../img/list/05.jpg") 0 0 / 20px no-repeat;
+	min-height: 20px;
+}
+.list5 {
+	margin-bottom: 60px;
+}
+.list6 li{
+	margin-bottom: 18px;
+	padding-left: 30px;
+	background: url("../img/list/06.jpg") 0 0 / 20px no-repeat;
+	min-height: 20px;
+}
+.list6 {
+	margin-bottom: 60px;
+}
