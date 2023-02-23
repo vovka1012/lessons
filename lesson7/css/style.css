@@ -73,11 +73,12 @@
 	color: #637381;
 	margin-bottom: 35px;
 }
-.btn-tail {
-	background: #3056D3;
+
+.btn-link button{
+	background-color: #3056D3;
 	border-radius: 30px;
-	width: 139px;
-   height: 44px;
+	min-width: 139px;
+   min-height: 44px;
 	font-weight: 600;
 	font-size: 16px;
 	color: #FFFFFF;
@@ -91,9 +92,6 @@
 }
 /* ===================List */
 
-.unorder-maket {
-
-}
 .unorder-container {
 	margin: 0 135px;
 	font-family: 'Inter';
